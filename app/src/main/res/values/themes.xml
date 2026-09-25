@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark platform window prevents a light frame before Compose renders. -->
+    <style name="Theme.MatrimonyApp" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/brand_wine</item>
+        <item name="android:navigationBarColor">@color/brand_wine</item>
+        <item name="android:statusBarColor">@color/brand_wine</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <!-- Disable system force dark to prevent MIUI (Redmi) from inverting colors -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+</resources>

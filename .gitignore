@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local Android SDK configuration
+local.properties
+
+# APKs
+*.apk
+*.aab
+
+# Kotlin
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.jks
+*.keystore
+
+# Firebase / service credentials
+google-services.json

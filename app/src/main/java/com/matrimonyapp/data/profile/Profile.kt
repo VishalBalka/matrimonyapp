@@ -1,0 +1,32 @@
+package com.matrimonyapp.data.profile
+
+data class UserProfile(
+    val profileId: String,
+    val userId: String,
+    val displayName: String,
+    val dateOfBirth: String,
+    val gender: String,
+    val country: String?,
+    val stateProvince: String?,
+    val city: String,
+    val bio: String,
+    val phoneNumber: String?,
+    val photoAvailable: Boolean,
+    val profession: String?,
+    val employer: String?,
+    val salaryRange: String?,
+    val education: String?,
+    val skills: String?,
+    val linkedinUrl: String?,
+    val instagramUrl: String?,
+    val facebookUrl: String?,
+    val websiteUrl: String?,
+    val profileVisibility: String,
+    val showPhone: Boolean,
+    val showSalary: Boolean,
+    val showSocial: Boolean,
+    val backgroundCheckStatus: String,
+    val verificationStatus: String,
+    val verifiedAt: String?,
+    val profileLocked: Boolean
+)

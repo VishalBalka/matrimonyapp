@@ -1,0 +1,6 @@
+{
+  "name": "MatrimonyApp",
+  "description": "Matrimony and matchmaking Android application featuring verified profiles, discovery search, notifications, and profile management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

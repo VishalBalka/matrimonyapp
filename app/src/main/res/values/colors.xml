@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_wine">#3A1424</color>
+    <color name="brand_wine_dark">#1F0814</color>
+    <color name="brand_wine_light">#4E1630</color>
+    <color name="brand_rose">#8D3C58</color>
+    <color name="brand_rose_light">#C77B95</color>
+    <color name="brand_champagne_gold">#E8C98B</color>
+    <color name="brand_gold_light">#FDF3DC</color>
+    <color name="brand_gold_dark">#C49B49</color>
+    <color name="brand_cream">#F6EBDD</color>
+    <color name="brand_muted_rose">#CDBBC3</color>
+    <color name="brand_glass_white">#26FFFFFF</color>
+    <color name="brand_glass_border">#59FFFFFF</color>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Safe area: 21,21 to 87,87 (66x66 dp) -->
+
+    <!-- Glass Refraction Halo / Outer Disc -->
+    <path
+        android:fillColor="@color/brand_glass_white"
+        android:strokeColor="@color/brand_glass_border"
+        android:strokeWidth="1.5"
+        android:pathData="M54,23
+            C71,23 85,37 85,54
+            C85,71 71,85 54,85
+            C37,85 23,71 23,54
+            C23,37 37,23 54,23 Z" />
+
+    <!-- Specular Arc Highlight (iPhone Pro Glass Glare) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M35,32 C42,26 50,24 59,24 C69,24 75,27 79,33" />
+
+    <!-- Intertwined Golden Wedding Rings (Left Ring) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/brand_champagne_gold"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round"
+        android:pathData="M46,40
+            C38,40 32,46 32,54
+            C32,62 38,68 46,68
+            C54,68 60,62 60,54
+            C60,46 54,40 46,40 Z" />
+
+    <!-- Intertwined Golden Wedding Rings (Right Ring) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@color/brand_gold_light"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round"
+        android:pathData="M62,40
+            C54,40 48,46 48,54
+            C48,62 54,68 62,68
+            C70,68 76,62 76,54
+            C76,46 70,40 62,40 Z" />
+
+    <!-- Central Floating Faceted Love Emblem / Heart Knot -->
+    <path
+        android:fillColor="@color/brand_rose"
+        android:strokeColor="@color/brand_gold_light"
+        android:strokeWidth="1"
+        android:pathData="M54,75
+            C50,71 39,64 39,52
+            C39,46 43,42 49,42
+            C52.5,42 53.5,44 54,46
+            C54.5,44 55.5,42 59,42
+            C65,42 69,46 69,52
+            C69,64 58,71 54,75 Z" />
+
+    <!-- Heart Inner Specular Shimmer -->
+    <path
+        android:fillColor="@color/brand_rose_light"
+        android:pathData="M54,72
+            C51,68 42,62 42,52
+            C42,48 45,45 49,45
+            C51.5,45 53,46.5 54,48.5
+            C55,46.5 56.5,45 59,45
+            C63,45 66,48 66,52
+            C66,62 57,68 54,72 Z" />
+
+    <!-- Sparkling Diamond Crown -->
+    <path
+        android:fillColor="@color/brand_gold_light"
+        android:pathData="M54,28 L56.5,33 L54,38 L51.5,33 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,30.5 L55.5,33 L54,35.5 L52.5,33 Z" />
+</vector>

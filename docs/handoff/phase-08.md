@@ -30,10 +30,10 @@ Phase 08 extends the authenticated profile foundation with a profile photo, coun
 Run from `V:\Projects\MatrimonyApp\backend` with the existing local PostgreSQL environment variables set for port `55432`:
 
 ```powershell
-$env:POSTGRES_PASSWORD="matrimony_local_only"
+$env:POSTGRES_PASSWORD="<DB_PASSWORD>"
 $env:SPRING_DATASOURCE_URL="jdbc:postgresql://localhost:55432/matrimony"
 $env:SPRING_DATASOURCE_USERNAME="matrimony"
-$env:SPRING_DATASOURCE_PASSWORD="matrimony_local_only"
+$env:SPRING_DATASOURCE_PASSWORD="<DB_PASSWORD>"
 ..\android\gradlew.bat test
 ```
 
@@ -51,3 +51,4 @@ Run the static verifier from `V:\Projects\MatrimonyApp`:
 ```
 
 Do not commit until all three test/build/verifier checks pass and the physical phone verifies profile editing and photo flows.
+

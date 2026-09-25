@@ -33,7 +33,7 @@ Neon remains available for development, but no switch to Neon is made here.
 ## Local database
 Database name: matrimony
 User: matrimony
-Password: matrimony_local_only
+Password: <DB_PASSWORD>
 
 The password above is a local development value only. Do not replace it with a real credential or commit production secrets.
 
@@ -56,3 +56,4 @@ Do not record a PASS until actual command output has been observed.
 
 ## Phase 04 commit
 pending
+

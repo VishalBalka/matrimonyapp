@@ -36,7 +36,7 @@ public class AppProperties {
     }
 
     public static class Jwt {
-        private String secret = "9a4f2c8d7e1b5a3f6c8d0e2b4a6c8e0f1a3b5c7d9e1f3a5b7c9d1e3f5a7b9c1d";
+        private String secret;
         private long accessTokenExpirationMs = 86400000L; // 24 hours
         private long refreshTokenExpirationMs = 604800000L; // 7 days
 

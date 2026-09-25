@@ -78,7 +78,7 @@ Database connection settings (pre-configured in `application-dev.yml`):
 - **Port:** `55432`
 - **Database:** `matrimony`
 - **Username:** `matrimony`
-- **Password:** `matrimony_local_only`
+- **Password:** `<DB_PASSWORD>`
 
 To stop the database:
 ```bash
@@ -194,3 +194,4 @@ curl -X GET "http://localhost:8080/api/v1/discovery/search?gender=Female&city=Ba
 curl -X POST http://localhost:8080/api/v1/auth/logout \
   -H "Authorization: Bearer <TOKEN>"
 ```
+

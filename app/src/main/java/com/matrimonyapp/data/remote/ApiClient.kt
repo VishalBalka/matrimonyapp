@@ -33,15 +33,11 @@ object ApiClient {
 
         response
     }
-
-    private val mockBackendInterceptor = MockBackendInterceptor()
-
     private fun retrofit(tokenStore: TokenStore): Retrofit {
         val interceptor = authInterceptor(tokenStore)
 
         val client = OkHttpClient.Builder()
             .addInterceptor(interceptor)
-            .addInterceptor(mockBackendInterceptor)
             .connectTimeout(2, TimeUnit.SECONDS)
             .readTimeout(10, TimeUnit.SECONDS)
             .writeTimeout(10, TimeUnit.SECONDS)
@@ -94,3 +90,4 @@ private fun String.ensureApiBaseUrl(): String {
     }
     return normalized
 }
+

@@ -70,7 +70,7 @@ Debug Android networking permits:
 
 \- `10.0.2.2` for Android emulator
 
-\- `192.168.29.82` for the verified physical development phone
+\- `<PC-LAN-IP>` for the verified physical development phone
 
 
 
@@ -95,3 +95,4 @@ Command:
 cd V:\\Projects\\MatrimonyApp\\android
 
 .\\gradlew.bat :app:testDebugUnitTest
+

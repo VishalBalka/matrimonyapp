@@ -57,7 +57,7 @@ Flyway runtime evidence showed PostgreSQL 17.6, four migrations validated, schem
 Debug API development hosts:
 
 - emulator: 10.0.2.2
-- physical device: 192.168.29.82
+- physical device: <PC-LAN-IP>
 
 Release cleartext networking remains fail-closed.
 
@@ -237,3 +237,4 @@ OTP/SMS/social/MFA/password-reset functionality remains inactive. Future OTP wor
 ## Closeout
 
 Phase 10 runtime and static validation evidence is complete. The remaining closeout action is the final Git review and commit containing only Phase 10 documentation and verification scripts.
+

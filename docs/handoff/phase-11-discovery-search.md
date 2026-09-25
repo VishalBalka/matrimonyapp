@@ -258,7 +258,7 @@ Reported only (not changed, because they are outside Phase 11 or touch validated
    Discovery now shows other members' photos on viewers' devices, so the Android side decodes with a
    pixel budget. Server-side dimension validation was not added because existing tests upload
    non-decodable placeholder bytes.
-6. **Hard-coded LAN IP** `http://192.168.29.82:8080/` in `ApiClient` main source (works only with the
+6. **Hard-coded LAN IP** `http://<PC-LAN-IP>:8080/` in `ApiClient` main source (works only with the
    debug cleartext configuration; release builds cannot reach it). A build-config field would be cleaner.
 7. **`application-test.yml` lives in `src/main/resources`** and sets `flyway.clean-disabled: false`, so
    it ships in the production jar; activating the `test` profile there would permit Flyway clean.
@@ -326,3 +326,4 @@ Do not stage `APPLY_PHASE_07_UI_POLISH.md`, `APPLY_PHASE_08.md`, build directori
 ## Final Git commit
 
 Not created. Baseline remains `dbb7b48`.
+

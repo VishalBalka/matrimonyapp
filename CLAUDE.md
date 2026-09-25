@@ -222,7 +222,7 @@ Supported debug hosts:
 
 \- emulator: 10.0.2.2
 
-\- physical Android device: 192.168.29.82
+\- physical Android device: <PC-LAN-IP>
 
 
 
@@ -232,7 +232,7 @@ Release networking must remain fail-closed for cleartext HTTP.
 
 Current physical-device development base URL:
 
-http://192.168.29.82:8080/
+http://<PC-LAN-IP>:8080/
 
 
 
@@ -655,4 +655,5 @@ Never use unsupported claims such as:
 
 
 unless the corresponding verification evidence is documented.
+
 

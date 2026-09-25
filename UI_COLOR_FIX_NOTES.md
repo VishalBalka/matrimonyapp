@@ -20,7 +20,7 @@ Use the PC LAN API URL when building for the physical Android device:
 
 ```powershell
 .\gradlew.bat :app:clean :app:testDebugUnitTest :app:assembleDebug `
-  -PMATRIMONY_API_BASE_URL=http://192.168.29.82:8080/ `
+  -PMATRIMONY_API_BASE_URL=http://<PC-LAN-IP>:8080/ `
   --no-daemon
 ```
 
@@ -29,3 +29,4 @@ Then install:
 ```powershell
 adb install -r .\app\build\outputs\apk\debug\app-debug.apk
 ```
+

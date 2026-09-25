@@ -313,7 +313,7 @@ if (Test-Path $netConfig) {
         Fail $netConfigRel $null "cleartext-global" "base-config must keep cleartextTrafficPermitted=false."
     }
     $domains = @([regex]::Matches($netText, '<domain[^>]*>([^<]+)</domain>') | ForEach-Object { $_.Groups[1].Value.Trim() })
-    $unexpected = @($domains | Where-Object { $_ -notin @("10.0.2.2", "192.168.29.82") })
+    $unexpected = @($domains | Where-Object { $_ -notin @("10.0.2.2") })
     if ($unexpected.Count -eq 0) {
         Pass "Debug cleartext is limited to the approved local hosts"
     } else {
@@ -402,3 +402,4 @@ if ($failures -eq 0) {
 
 Write-Host "PHASE 11 DISCOVERY VERIFICATION: FAIL ($failures failure(s))"
 exit 1
+
